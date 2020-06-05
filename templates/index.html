@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Blogger</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+    <script src="https://use.fontawesome.com/0a38ab8407.js"></script>
+
+
+    <!-- ===========================
+    FAVICONS
+    =========================== -->
+    <link rel="icon" href="img/favicon.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="static/img/apple-touch-icon-ipad-retina.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="static/img/apple-touch-icon-iphone-retina.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="static/img/apple-touch-icon-ipad.png" />
+    <link rel="apple-touch-icon" sizes="57x57" href="static/img/apple-touch-icon-iphone.png" />
+
+    <!-- ===========================
+    STYLESHEETS
+    =========================== -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="static/css/responsive.css">
+
+    <!-- ===========================
+    FONTS & ICONS
+    =========================== -->
+    
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+
+    <!--[if IE]>
+        <script src="https://cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<header class="navbar navbar-inverse">
+        <div class="container-header">
+            <nav class="navbar">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar">Home</span>
+                            <span class="icon-bar">Resume</span>
+                            <span class="icon-bar">Projects</span>
+                            <span class="icon-bar">Contact</span>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li><a href="{{ url_for('hello') }}">Home<span class="sr-only">(current)</span></a></li>
+                            <li><a href="{{ url_for('resume') }}">Resume<span class="sr-only">(current)</span></a></li>
+                            <li><a href="{{ url_for('projects') }}">Projects</a></li>
+                            <li><a href="{{ url_for('about') }}">Contact</a></li>
+                        </ul>
+
+                        <ul class="nav navbar-nav navbar-right">
+                            <a class="navbar-brand" href="#" style="color: white;">Blogger</a>
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                </div>
+            </nav>
+        </div>
+    </header>
+
+
+
+  <!-- Page Header -->
+  <header class="masthead">
+    <div class="overlay"></div>
+    <div class="container" style="background-color:DodgerBlue;">
+      
+          <div class="site-heading">
+            <h1>I AM SHRUTIKA </h1>
+            <h3>A computer science student</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+ <!-- Main Content -->
+  <div class="container" style="background-color:powderblue;">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        
+        <div class="post-preview">
+          
+            <h2 class="post-title">
+              Blog</h2>
+     <p>    
+We all want to be happy in our life. But, happiness cannot be a goal. A goal must be something which is more tangible and measurable. Happiness is just a perception. There have been studies in the past which proves that happiness is neither related to money nor health of a person, provided they have the minimum level of health and money to lead a modest life.
+
+But there are things which make you happy. I am sharing the list of things which brings me to life; I would love to know about what makes you happy. Do mention about that in your comments.             
+<h2>Some things that make me happy</h2>
+<ul>
+<li>Spending time with my family and friends</li>
+<li>Nature</li>
+
+<li>Food</li>
+
+<li>Surfing Internet</li>
+<li>Learning new things</li>
+<li>Study</li>
+<li>Dancing</li>
+
+</ul>
+</p>
+   
+        <!-- Pager -->
+        <div class="clearfix">
+          <a class="btn btn-primary float-right" href="#">Older Posts &rarr;</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+<body>
+
+    <div>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+   </div>
+
+    <div class="col-md-12 centered">
+        <div class="carousel-caption" style="position: absolute; top: 45%; left: 0; width: 100%;  vertical-align: middle;">
+               <a href="https://www.linkedin.com/in/cianconway" class="social_icons">
+                <i class="fa fa-linkedin fa-4x" aria-hidden="true"></i>
+              </a>
+              <a href="https://github.com/cianconway" class="social_icons">
+                <i class="fa fa-github fa-4x" aria-hidden="true"></i>
+              </a>
+              <a href="https://twitter.com/kingcanway" class="social_icons">
+                <i class="fa fa-twitter fa-4x" aria-hidden="true"></i>
+              </a>
+            
+        </div>
+    </div>
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

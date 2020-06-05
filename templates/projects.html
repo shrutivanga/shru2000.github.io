@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Blogger</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+    <script src="https://use.fontawesome.com/0a38ab8407.js"></script>
+
+
+    <!-- ===========================
+    FAVICONS
+    =========================== -->
+    <link rel="icon" href="img/favicon.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="static/img/apple-touch-icon-ipad-retina.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="static/img/apple-touch-icon-iphone-retina.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="static/img/apple-touch-icon-ipad.png" />
+    <link rel="apple-touch-icon" sizes="57x57" href="static/img/apple-touch-icon-iphone.png" />
+
+    <!-- ===========================
+    STYLESHEETS
+    =========================== -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="static/css/responsive.css">
+
+    <!-- ===========================
+    FONTS & ICONS
+    =========================== -->
+    
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+
+    <!--[if IE]>
+        <script src="https://cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<header class="navbar navbar-inverse">
+        <div class="container-header">
+            <nav class="navbar">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar">Home</span>
+                            <span class="icon-bar">Resume</span>
+                            <span class="icon-bar">Projects</span>
+                            <span class="icon-bar">Contact</span>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li><a href="{{ url_for('hello') }}">Home<span class="sr-only">(current)</span></a></li>
+                            <li><a href="{{ url_for('resume') }}">Resume<span class="sr-only">(current)</span></a></li>
+                            <li><a href="{{ url_for('projects') }}">Projects</a></li>
+                            <li><a href="{{ url_for('about') }}">Contact</a></li>
+                        </ul>
+
+                        <ul class="nav navbar-nav navbar-right">
+                            <a class="navbar-brand" href="#" style="color: white;">Blogger</a>
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <body>
+
+        <div id="job" class="row mobmid" style="background-color:powderblue;">
+                <div class="col-sm-11">
+                    <h3>Projects</h3>
+
+                    <div class="award">
+                        <p class="sub"><a href=""> WI-FI BASED HOME AUTOMATION HOME AUTOMATION SYSTEM</a></p>
+                        <p>This home automation system can measure temperature, relative humidity,
+				 light intensity and control two electrical equipment on Cayenne IoT (Internet of Things) platform. 
+				The two electrical equipment can be a light bulb and a ceiling fan, or any other electrical devices. 
+
+                            </p>
+
+                    </div>
+                    <!--1st award end-->
+
+                    <div class="award">
+                        <p class="sub"><a href=""> MALWARE DETECTION USING MACHINE LEARNING</a></p>
+                          
+           
+             <p>Malware is very dangerous in today’s world for internet users. Nowadays, 
+		malware designed by attackers are generally polymorphic in nature. Polymorphic malware is a type of 
+	malware that constantly changes its identifiable features in order to fool detection using typical signature-based models. 
+	Current antivirus softwares are effective against known viruses, if a malware with new signature is introduced then it will be
+ 	difficult to detect that it is malicious. Signature-based detection is not that effective during zero-day attacks. 
+	Till the signature is created for new (unseen) malware, distributed to the systems and added to the anti-malware database, 
+	the systems can be exploited by that malware. But Machine Learning methods can be used to create more effective antimalware software 
+	which is capable of detecting previously unknown malware, zero-day attack.
+                            </p>
+                            </div>
+
+                    <div class="award">
+                        <p class="sub"><a href="">GENERATIVE IMAGE COMPLETION USING GAN</a></p>
+        
+             <p>Face completion is a challenging task in computer vision. Unlike general images, face images usually have strong semantic
+ 	correlation and symmetry. Without taking these characteristics into account, existing face completion techniques usually fail to produce 
+		a photo-realistic result, especially for the missing key components (e.g., eyes and mouths). In this paper, we propose 
+	a symmetry-aware face completion method based on facial structural features using a deep generative model.
+                            </p>                    </div>
+
+                   
+                </div><!--awards end-->
+                    
+                </div><!--Job experiences end-->
+            </div><!--Job experiences end-->
+        </div><!--left end-->
+
+    </body>
